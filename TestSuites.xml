@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuites">
+    <test verbose="2" preserve-order="true" name="TestSuites">
+        <classes>
+            <class name="NewCustomerPageTest"/>
+            <class name="NewAccountPageTest"/>
+            <class name="DepositPageTest"/>
+            <class name="WithdrawalPageTest"/>
+            <class name="FundTransferPageTest"/>
+            <class name="BalanceEnquiryPageTest"/>
+            <class name="MiniStatementPageTest"/>
+            <class name="CustomizedStatementPageTest"/>
+            <class name="DeleteAccountPageTest"/>
+            <class name="DeleteCustomerPageTest"/>
+            <class name="ChangePasswordPageTest"/>
+            <class name="HomePageTest"/>
+            <class name="LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
